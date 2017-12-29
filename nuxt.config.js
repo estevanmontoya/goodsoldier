@@ -3,14 +3,14 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'good-soldier-podcast',
+    title: 'Good Soldier Podcast - Encouraging Independent Baptist Preachers.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Good Soldier Podcast - Encouraging Independent Baptist Preachers' }
+      { hid: 'description', name: 'description', content: 'The Good Soldier Podcast is here to encourage Independent Baptist Preachers to fight the good fight of faith.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   /*
