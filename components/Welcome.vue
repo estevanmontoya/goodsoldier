@@ -29,7 +29,7 @@ section {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 40px;
-  border-bottom: 1px solid rgba(0,0,0,.25);
+  /* border-bottom: 1px solid rgba(0,0,0,.25); */
 }
 .container img {
   width: 100%;
@@ -56,7 +56,7 @@ section {
 @media (min-width:768px) {
   .container {
     grid-template-columns: 1fr 2fr;
-    padding: 30px 30px 100px;
+    padding: 30px;
   }
   .container h1.title {
     font-size: 40px;

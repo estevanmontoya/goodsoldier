@@ -28,13 +28,14 @@ section {
   padding: 40px 0px;
 }
 .container {
+  background-color: rgba(0,0,0,.03);
   max-width: 1280px;
   width: 100%;
   margin: 0px auto;
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 40px;
+  grid-gap: 100px;
 }
 .contentH2 {
   font-family: 'Raleway', sans-serif;
@@ -53,14 +54,17 @@ img {
   max-width: 430px;
   width: 100%;
   border: 2px solid (0,0,0,.75);
-  box-shadow: 0px 8px 6px -3px rgba(0,0,0,.5);
+  box-shadow: 0px 8px 6px -3px rgba(0,0,0,.25);
   margin-bottom: 40px;
   -moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;
+}
+img:hover {
+  box-shadow: 0px 8px 6px -3px rgba(0,0,0,.7);
 }
 @media (min-width:768px) {
   .container {
     grid-template-columns: 2fr 1fr;
-    padding: 30px 30px 100px;
+    padding: 50px;
   }
   .likeUs {
     font-size: 30px;
