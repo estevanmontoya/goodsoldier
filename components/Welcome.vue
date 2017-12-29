@@ -1,9 +1,9 @@
 <template>
   <section>
+    <h1 class='title'>Good Soldier Podcast</h1>
     <div class="container">
       <img class='logo' src="../static/goodSoldierSquare.jpg" alt="Logo for Good Soldier Podcast">
       <div class="content">
-        <h1 class='title'>Good Soldier Podcast</h1>
         <h2 class='subTitle'>The Good Soldier Podcast is here to encourage Independent Baptist Preachers to fight the good fight of faith. Led by <a href='http://www.MVBCTaos.org' target='_blank'>Pastor Estevan Montoya</a>, be encouraged from the Word of God to take up the Sword of Lord and move forward for the Glory of God.</h2>
       </div>
     </div>
@@ -37,7 +37,8 @@ section {
   box-shadow: 0 8px 6px -6px black;
 }
 
-.container h1.title {
+.title {
+  text-align: center;
   font-size: 30px;
   font-weight: 900;
   text-transform: uppercase;
@@ -58,7 +59,7 @@ section {
     grid-template-columns: 1fr 2fr;
     padding: 30px;
   }
-  .container h1.title {
+  .title {
     font-size: 40px;
   }
 
@@ -74,8 +75,9 @@ section {
   .container {
     grid-template-columns: 1fr 3fr;
   }
-  .container h1.title {
+  .title {
     font-size: 50px;
+    margin-bottom: 50px;
   }
 
   .container h2.subTitle {
