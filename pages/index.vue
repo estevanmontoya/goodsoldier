@@ -19,9 +19,9 @@ export default {
   }
 }
 </script>
+<style>
 @import url('https://fonts.googleapis.com/css?family=Cardo|Raleway:200,400,900');
-*, body, h1, h2, h3 {
+h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
-<style>
 </style>

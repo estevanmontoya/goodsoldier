@@ -34,7 +34,7 @@ section {
   max-width: 1280px;
   width: 100%;
   margin: 0px auto;
-  padding: 40px 50px;
+  padding: 20px;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 40px;
@@ -69,7 +69,7 @@ section {
 }
 
 .button {
-  padding: 8px 0px;
+  padding: 0px 0px;
   -moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;
 }
 .button button {
@@ -101,14 +101,14 @@ section {
     grid-template-columns: 2fr 1fr 1fr;
   }
   .container .text {
-    padding: 15px 0px;
+    padding: 10px 0px;
     text-align: left;
   }
   .container .text span {
     letter-spacing: 1px;
   }
   .container .form {
-    padding: 4px 0px;
+    padding: 0px 0px;
   }
 }
 @media (min-width:1024px) {
