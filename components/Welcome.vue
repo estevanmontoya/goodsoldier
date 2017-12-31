@@ -1,11 +1,9 @@
 <template>
   <section>
     <div class="container">
-      <img class='logo' src="../static/goodSoldierSquare.jpg" alt="Logo for Good Soldier Podcast">
-      <div class="content">
-        <h1 class='title'>Good Soldier Podcast</h1>
-        <h2 class='subTitle'>The Good Soldier Podcast is here to encourage Independent Baptist Preachers to fight the good fight of faith. Led by <a href='http://www.MVBCTaos.org' target='_blank'>Pastor Estevan Montoya</a>, be encouraged from the Word of God to take up the Sword of Lord and move forward for the Glory of God.</h2>
-      </div>
+      <img class='logo' src="../static/good-soldier-podcast-cover.jpg" alt="Logo for Good Soldier Podcast">
+      <p class='intro'>The Good Soldier Podcast is here to encourage Independent Baptist Preachers to stay in the fight for the Lord. A ministry of Pastor Estevan Montoya, of the <a class='churchLink' href='http://www.MVBCTaos.org' target='_blank'>Mountain View Baptist Church</a> in Taos, NM. Lessons taught from a King James Bible.</p>
+      <hr class='divider'>
     </div>
   </section>
 </template>
@@ -16,69 +14,67 @@ export default {
 </script>
 
 <style scoped>
-
+@import url('https://fonts.googleapis.com/css?family=Cardo');
 section {
   width: 100%;
-  padding: 20px 0px;
+  padding: 0px;
 }
 .container {
-  max-width: 1280px;
+  max-width: 800px;
+  text-align: center;
   width: 100%;
   margin: 0px auto;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 40px;
-  /* border-bottom: 1px solid rgba(0,0,0,.25); */
+  padding: 40px 0px;
 }
-.container img {
+.logo {
+  margin-bottom: 40px;
+  max-width: 800px;
   width: 100%;
-  height: auto;
-  box-shadow: 0 8px 6px -6px black;
 }
-
-.title {
-  font-size: 30px;
-  font-weight: 900;
-  text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
-  -moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;
-}
-
-.container h2.subTitle {
+.intro {
   font-family: 'Cardo', serif;
-  font-weight: 200;
   font-style: italic;
   font-size: 16px;
-  -moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;
+  padding: 10px;
+}
+.churchLink {
+  color: black;
+  font-weight:800;
 }
 
+.divider {
+  width: 50%;
+  margin: 10px auto 0px;
+  border: none;
+  height: 1px;
+  background-color: black;
+}
+/* Tablet Viewport */
 @media (min-width:768px) {
   .container {
-    grid-template-columns: 1fr 2fr;
-    padding: 30px;
+    width: 100%;
   }
-  .title {
-    font-size: 40px;
+  .intro {
+    font-size: 20px;
   }
-  .container h2.subTitle {
-    font-size: 24px;
-    line-height: 1.75em;
+  .divider {
+    width: 70%;
+    margin: 20px auto 6px;
   }
 }
+
+/* Desktop Viewport */
 @media (min-width:1024px) {
-  section {
-    padding: 50px 0px;
-  }
   .container {
-    grid-template-columns: 1fr 3fr;
+    width: 100%;
   }
-  .title {
-    font-size: 50px;
+  .intro {
+    font-size: 26px;
+    padding: 0px;
   }
-  .container h2.subTitle {
-    font-size: 32px;
-    line-height: 1.75em;
+  .divider {
+    width: 50%;
+    margin: 40px auto 10px;
   }
 }
 </style>

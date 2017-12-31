@@ -27,8 +27,6 @@ export default {
 section {
   width: 100%;
   background-color: black;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,.5);
-  margin-bottom: 20px;
 }
 .container {
   max-width: 1280px;

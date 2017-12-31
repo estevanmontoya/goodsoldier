@@ -24,4 +24,7 @@ export default {
 h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
+p {
+  font-family: 'Cardo', serif;
+}
 </style>
