@@ -3,7 +3,7 @@
     <div class="container">
       <h2 class="contentH2">Recent Episodes</h2>
       <div class="audio">
-        <iframe style="margin-bottom:50px;" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/365190977&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/365190977&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
       </div>
       <a href="https://itunes.apple.com/us/podcast/podcast-good-soldier-podcast-feed/id1321276329?mt=2" target="_blank">
         <img class="itunes" src="../static/itunes.png" alt="Subscribe to our podcast on iTunes.">
