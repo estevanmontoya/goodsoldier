@@ -2,20 +2,20 @@
   <section class="contained">
     <Optin/>
     <Welcome/>
-    <Content/>
+    <Feed/>
   </section>
 </template>
 
 <script>
 import Optin from '~/components/Optin.vue'
 import Welcome from '~/components/Welcome.vue'
-import Content from '~/components/Content.vue'
+import Feed from '~/components/Feed.vue'
 
 export default {
   components: {
     Optin,
     Welcome,
-    Content
+    Feed
   }
 }
 </script>
