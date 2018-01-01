@@ -9,6 +9,9 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'The Good Soldier Podcast is here to encourage Independent Baptist Preachers to fight the good fight of faith.' }
     ],
+    plugins: [
+      { src: '~plugins/ga.js', ssr: false }
+    ],
     link: [
       // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
