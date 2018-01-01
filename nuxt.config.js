@@ -1,4 +1,10 @@
 module.exports = {
+  modules: [
+    ['@nuxtjs/google-analytics']
+  ],
+   'google-analytics': {
+      id: 'UA-109853324-1'
+    },
   /*
   ** Headers of the page
   */
@@ -9,12 +15,9 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'The Good Soldier Podcast is here to encourage Independent Baptist Preachers to fight the good fight of faith.' }
     ],
-    plugins: [
-      { src: '~plugins/ga.js', ssr: false }
-    ],
-    link: [
-      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    // link: [
+    //   // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    // ]
   },
   /*
   ** Customize the progress bar color
@@ -24,6 +27,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    // [['@nuxtjs/google-analytics', { ua: 'UA-109853324-1' }]]
     /*
     ** Run ESLint on save
     */
