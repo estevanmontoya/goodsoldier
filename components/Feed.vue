@@ -3,6 +3,10 @@
     <div class="container">
       <h2 class="contentH2">Recent Episodes</h2>
       <div class="audio">
+        <h2 class='title'>Episode 2: The Ministry Is Supposed To Be Work</h2>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/379945376&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+        <br/>
+        <h2 class='title'>Episode 1: Introduction And Endurance</h2>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/365190977&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
       </div>
       <a href="https://itunes.apple.com/us/podcast/podcast-good-soldier-podcast-feed/id1321276329?mt=2" target="_blank">
@@ -38,6 +42,9 @@ section {
   text-transform: uppercase;
   margin-bottom: 40px;
 }
+.title {
+  margin: 20px;
+}
 .sponsors {
   display: grid;
   grid-template-columns: 1fr;
@@ -67,6 +74,7 @@ img:hover {
     grid-gap: 30px;
   }
   .itunes {
+    margin-top: 50px;
     margin-bottom: 100px;
   }
 }
