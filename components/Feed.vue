@@ -3,6 +3,9 @@
     <div class="container">
       <h2 class="contentH2">Recent Episodes</h2>
       <div class="audio">
+        <h2 class="title">Episode 3: The Work Of The Apostle Paul</h2>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/384290684&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+        <br/>
         <h2 class='title'>Episode 2: The Ministry Is Supposed To Be Work</h2>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/379945376&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
         <br/>
