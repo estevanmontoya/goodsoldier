@@ -3,20 +3,7 @@
     <div class="container">
       <h2 class="contentH2">Recent Episodes</h2>
       <div class="audio">
-        <h2 class="title">Episode 5: Are We Stirred For God?</h2>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391657449&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-        <br/>
-        <h2 class="title">Episode 4: When Was Last Time You Did Something For The First Time?</h2>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/387257702&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-        <br/>
-        <h2 class="title">Episode 3: The Work Of The Apostle Paul</h2>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/384290684&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-        <br/>
-        <h2 class='title'>Episode 2: The Ministry Is Supposed To Be Work</h2>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/379945376&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-        <br/>
-        <h2 class='title'>Episode 1: Introduction And Endurance</h2>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/365190977&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+        <iframe width="100%" height="450" scrolling="yes" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/436234059&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
       </div>
       <a href="https://itunes.apple.com/us/podcast/podcast-good-soldier-podcast-feed/id1321276329?mt=2" target="_blank">
         <img class="itunes" src="../static/itunes.png" alt="Subscribe to our podcast on iTunes.">
