@@ -5,12 +5,8 @@
         <div class="text">
           <span>Get notified when we release new episodes</span>
         </div>
-          <div class="form">
-            <input type="email" name="EMAIL" placeholder="E-Mail Address">
-          </div>
           <div class="button">
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9142a4dbbea02ac8801f57eaf_954e4bd591" tabindex="-1" value=""></div>
-            <button type="submit" value="Subscribe" name="subscribe">Join Today!</button>
+            <a href='https://mailchi.mp/6f593f6b3db0/goodsoldiers' target="_blank">Join Today!</a>
           </div>
       </div>
     </form>
@@ -29,18 +25,18 @@ section {
   background-color: black;
 }
 .container {
-  max-width: 1280px;
+  max-width: 900px;
   width: 100%;
   margin: 0px auto;
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 40px;
+  grid-gap: 0px;
 }
 
 .container .text {
   color: white;
-  font-size: 20px;
+  font-size: 14px;
   font-family: 'Raleway', sans-serif;
   padding: 5px 0px;
   text-align: center;
@@ -65,29 +61,32 @@ section {
   width: 100%;
   font-size: 12px;
 }
-
 .button {
+  margin: 0px auto;
+}
+a {
   padding: 0px 0px;
   -moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;
 }
-.button button {
+.button a {
   width: 100%;
-  padding: 10px 0px;
+  padding: 5px 10px;
   background-color: orange;
   color: white;
   text-transform: uppercase;
+  text-decoration: none;
   border: none;
   border-radius: 30px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 900;
   -moz-transition: all .15s ease-out;-o-transition: all .15s ease-out;transition: all .15s ease-out;
 }
-.button button:hover {
+.button a:hover {
   background-color: white;
   color: #ffa603;
   -moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;
 }
-.button button:active {
+.button a:active {
   background-color: #ffc863cc;
   color: white;
   -moz-transition: all .15s ease-out;-o-transition: all .15s ease-out;transition: all .15s ease-out;
@@ -96,11 +95,12 @@ section {
 
 @media (min-width:768px) {
   .container {
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    margin-bottom: 30px;
   }
   .container .text {
     padding: 10px 0px;
-    text-align: left;
+    font-size: 20px;
   }
   .container .text span {
     letter-spacing: 1px;
@@ -108,10 +108,21 @@ section {
   .container .form {
     padding: 0px 0px;
   }
+  .button {
+    margin: 10px auto;
+  }
+  .button a {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
 }
 @media (min-width:1024px) {
   .container {
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 10px;
+  }
+  .container .text {
+    text-align: right;
   }
 }
 </style>

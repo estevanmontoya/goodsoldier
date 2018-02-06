@@ -36,7 +36,7 @@ section {
   text-align: center;
   width: 100%;
   margin: 0px auto;
-  padding: 40px 0px;
+  padding: 0px 0px;
 }
 .logo {
   margin-bottom: 40px;
@@ -104,6 +104,7 @@ ul.share-buttons .sr-only{
 @media (min-width:1024px) {
   .container {
     width: 100%;
+    padding: 40px 0px;
   }
   .intro {
     font-size: 26px;
