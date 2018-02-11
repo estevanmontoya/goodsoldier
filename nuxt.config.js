@@ -13,6 +13,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'google-site-verification', content: 'dZcRFSUiP0r42H1b5tMnBq9WT_m3-_zVsFjj0z3GyU4' },
       { hid: 'description', name: 'description', content: 'The Good Soldier Podcast is here to encourage Independent Baptist Preachers to fight the good fight of faith.' }
     ],
     // link: [
